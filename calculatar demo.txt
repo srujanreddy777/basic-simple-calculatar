@@ -1,0 +1,19 @@
+#simple calculatar
+k=input("enter choose any symbol + , *, -,/")
+a = int(input("enter 1st number"))
+b = int(input("enter 2st number"))
+if k== "+":
+    c=a+b
+    print(c)
+
+if k=="-":
+
+    c=a-b
+    print(c)
+if k=="*":
+
+    c=a*b
+    print(c)
+if k=="/":
+    c=a/b
+    print(c)
